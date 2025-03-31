@@ -114,7 +114,8 @@ export default {
 				'fade-in': 'fade-in 0.3s ease-out'
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/lovable-uploads/c69f100d-8f9a-49bb-808f-1440fc53f413.png')"
+				'hero-pattern': "url('/lovable-uploads/c69f100d-8f9a-49bb-808f-1440fc53f413.png')",
+				'main-bg': "url('/lovable-uploads/a8665012-07da-4fd1-9a31-4b9226278834.png')"
 			}
 		}
 	},

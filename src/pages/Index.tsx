@@ -14,45 +14,49 @@ const Index = () => {
   const { addToCart, state } = useCart();
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-main-bg bg-cover bg-fixed bg-center">
       <Header cartItemCount={state.items.reduce((sum, item) => sum + item.quantity, 0)} />
       
       <main className="flex-grow">
         <HeroBanner />
         
         <section className="container mx-auto px-4 py-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Browse Categories
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {categories.map((category) => (
-              <CategoryCard
-                key={category.name}
-                name={category.name}
-                image={category.image}
-                count={category.count}
-              />
-            ))}
-          </div>
-        </section>
-        
-        <section className="container mx-auto px-4 py-12 bg-white rounded-lg shadow-sm mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-            Featured Products
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onAddToCart={addToCart}
-              />
-            ))}
+          <div className="bg-white/90 rounded-2xl p-8">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Browse Categories
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {categories.map((category) => (
+                <CategoryCard
+                  key={category.name}
+                  name={category.name}
+                  image={category.image}
+                  count={category.count}
+                />
+              ))}
+            </div>
           </div>
         </section>
         
         <section className="container mx-auto px-4 py-12 mb-12">
-          <div className="bg-ask-blue/10 rounded-2xl p-8 text-center">
+          <div className="bg-white/90 rounded-2xl p-8 shadow-sm">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+              Featured Products
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {featuredProducts.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onAddToCart={addToCart}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+        
+        <section className="container mx-auto px-4 py-12 mb-12">
+          <div className="bg-ask-blue/10 bg-white/90 rounded-2xl p-8 text-center">
             <h2 className="text-3xl font-bold text-ask-blue mb-4">Why Choose ASK?</h2>
             <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
               ABC Sales Korea is your trusted partner for high-quality electronic components 
