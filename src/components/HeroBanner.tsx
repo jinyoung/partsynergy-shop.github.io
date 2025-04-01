@@ -20,7 +20,7 @@ const HeroBanner: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-md">
-            ASK - ABC Sales Korea
+            This site is underconstruction!
           </h1>
           <p className="text-xl text-white mb-8 drop-shadow-md">
             Your trusted partner for quality electronic components and manufacturing parts
