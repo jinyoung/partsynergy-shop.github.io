@@ -37,11 +37,6 @@ jobs:
       - name: Build with Vite
         run: npm run build
 
-      - name: Enable GitHub Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
