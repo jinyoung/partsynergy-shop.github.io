@@ -23,7 +23,7 @@ const HeroBanner: React.FC = () => {
             This site is underconstruction!
           </h1>
           <p className="text-xl text-white mb-8 drop-shadow-md">
-            Your trusted partner for quality electronic components and manufacturing parts
+            Your trusted partner for quality electronic components and manufacturing
           </p>
           
           <p className="text-white/80">
