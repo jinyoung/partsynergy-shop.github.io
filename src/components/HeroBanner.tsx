@@ -26,6 +26,14 @@ const HeroBanner: React.FC = () => {
             Your trusted partner for quality electronic components and manufacturing parts
           </p>
           
+          <p className="text-white/80">
+              ABC Sales Korea - E-mail _glen@abcsales.co.kr.
+          </p>       
+          
+          <p className="text-white/80">
+              ABC Sales Korea - Blog : https://blog.naver.com/abcsales
+          </p>    
+          
           <form onSubmit={handleSearch} className="max-w-xl mx-auto">
             <div className="relative">
               <input

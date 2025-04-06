@@ -50,22 +50,22 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-3">Categories</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/products?category=microcontrollers" className="text-white/80 hover:text-white transition-colors">
+                <Link to="/products?category=Power Inductor" className="text-white/80 hover:text-white transition-colors">
                   Microcontrollers
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=sensors" className="text-white/80 hover:text-white transition-colors">
+                <Link to="/products?category=RF Inductor" className="text-white/80 hover:text-white transition-colors">
                   Sensors
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=displays" className="text-white/80 hover:text-white transition-colors">
+                <Link to="/products?category=Common mode Choke" className="text-white/80 hover:text-white transition-colors">
                   Displays
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=connectors" className="text-white/80 hover:text-white transition-colors">
+                <Link to="/products?category=LTCC" className="text-white/80 hover:text-white transition-colors">
                   Connectors
                 </Link>
               </li>
@@ -75,10 +75,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
             <address className="not-italic text-white/80">
-              <p>123 Electronics Street</p>
-              <p>Seoul, South Korea</p>
-              <p className="mt-2">Email: info@abcsaleskorea.com</p>
-              <p>Phone: +82-2-123-4567</p>
+              <p>A1512, 13, Sinwon-ro 250 beongil, Yeongtong-gu</p>
+              <p>Suwon, Gyeongi-do, South Korea</p>
+              <p className="mt-2">Email: glen@abcsaleskorea.com</p>
+              <p>Phone: +82-2-000-0000</p>
             </address>
           </div>
         </div>
