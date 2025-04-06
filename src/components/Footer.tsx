@@ -10,8 +10,14 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">ASK</h3>
             <p className="text-white/80">
-              ABC Sales Korea - Your trusted partner for electronic components and manufacturing parts.
-            </p>
+              ABC Sales Korea - Your trusted partner for electronic components and manufacturing.
+            </p>      
+            <p className="text-white/80">
+              ABC Sales Korea - E-mail _glen@abcsales.co.kr.
+            </p>       
+            <p className="text-white/80">
+              ABC Sales Korea - Blog : https://blog.naver.com/abcsales
+            </p>       
           </div>
           
           <div>
