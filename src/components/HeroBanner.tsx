@@ -26,6 +26,10 @@ const HeroBanner: React.FC = () => {
             Your trusted partner for quality electronic components and manufacturing
           </p>
           
+          <p className="text-xl text-white mb-8 drop-shadow-md">
+            에이비씨세일즈코리아의 연결 홈페이지 입니다.  
+          </p>
+          
           <p className="text-white/80">
               ABC Sales Korea - E-mail _glen@abcsales.co.kr.
           </p>       
@@ -34,6 +38,11 @@ const HeroBanner: React.FC = () => {
               ABC Sales Korea - Blog : https://blog.naver.com/abcsales
           </p>    
           
+          <p className="text-white/80">
+              ABC-Taiwan Electronics : https://www.atec-group-market.com
+          </p>    
+          
+
           <form onSubmit={handleSearch} className="max-w-xl mx-auto">
             <div className="relative">
               <input
