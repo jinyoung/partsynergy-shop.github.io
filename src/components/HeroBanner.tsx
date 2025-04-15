@@ -35,8 +35,8 @@ const HeroBanner: React.FC = () => {
           </p>       
           
           <p className="text-white/80 mb-6">
-              ABC Sales Korea - Blog : https://blog.naver.com/abcsales
-              <link rel="https://blog.naver.com/abcsales" href="https://blog.naver.com/abcsales" />
+              ABC Sales Korea - Blog : <link rel=https://blog.naver.com/abcsales
+              href="https://blog.naver.com/abcsales" />
           </p>    
           
           <p className="text-white/80 mb-6">
